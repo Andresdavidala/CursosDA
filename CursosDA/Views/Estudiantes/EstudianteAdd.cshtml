@@ -1,0 +1,40 @@
+﻿@model CursosDA.Models.ViewModels.AddEstudianteRequest
+@{
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card mt-5">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="text-center">Registrar Nuevo Estudiante</h2>
+                </div>
+                <div class="card-body">
+                    <div class="container py-5">
+                        <form method="post">
+                            <div class="mb-3">
+                                <label class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="name" asp-for="Nombre"  />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Edad</label>
+                                <input type="number" class="form-control" id="displayName"  asp-for="Edad" />
+                            </div>
+
+
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-dark">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
