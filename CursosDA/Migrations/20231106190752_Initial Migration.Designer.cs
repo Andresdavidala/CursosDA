@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CursosDA.Migrations
 {
     [DbContext(typeof(CursosDADbContext))]
-    [Migration("20231103225621_add ProfesorId Column")]
-    partial class addProfesorIdColumn
+    [Migration("20231106190752_Initial Migration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

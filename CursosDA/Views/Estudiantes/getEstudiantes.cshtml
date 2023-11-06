@@ -1,0 +1,47 @@
+﻿@model IEnumerable<CursosDA.Models.Domain.Estudiante>
+@{
+}
+<a asp-area=""
+   asp-controller="Cursos"
+   asp-action="CursoAdd"
+   type="button" class="btn btn-primary">
+    Regresar
+</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre Estudiante</th>
+            <th>Edad</th>
+         
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var estudiante in Model)
+        {
+            <tr>
+                <td>@estudiante.IdEstudiante</td>
+                <td>@estudiante.Nombre</td>
+                <td>@estudiante.Edad</td>
+
+
+                <td>
+                    <!-- Botón de Editar -->
+                    <a data-id="@estudiante.IdEstudiante"  onclick="getId(this)"  class="btn btn-warning btn-sm">Editar</a>
+
+                    <!-- Botón de Eliminar (puedes mostrar un modal de confirmación si lo deseas) -->
+                    <a  class="btn btn-danger btn-sm">Eliminar</a>
+                    @* href="@Url.Action("Eliminar", "Cursos", new { id = estudiante.IdEstudiante })" *@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function getId(element) {
+        var idEstudiante = element.getAttribute("data-id");
+        console.log("IdEstudiante:", idEstudiante);
+    }
+</script>

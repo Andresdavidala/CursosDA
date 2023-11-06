@@ -49,14 +49,14 @@ namespace CursosDA.Migrations
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     InicioCurso = table.Column<DateTime>(type: "datetime2", nullable: false),
                     FinCurso = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    ProferorIdProfesor = table.Column<int>(type: "int", nullable: false)
+                    ProfesorId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Cursos", x => x.IdCurso);
                     table.ForeignKey(
-                        name: "FK_Cursos_Profesor_ProferorIdProfesor",
-                        column: x => x.ProferorIdProfesor,
+                        name: "FK_Cursos_Profesor_ProfesorId",
+                        column: x => x.ProfesorId,
                         principalTable: "Profesor",
                         principalColumn: "IdProfesor",
                         onDelete: ReferentialAction.Cascade);
@@ -89,9 +89,9 @@ namespace CursosDA.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Cursos_ProferorIdProfesor",
+                name: "IX_Cursos_ProfesorId",
                 table: "Cursos",
-                column: "ProferorIdProfesor");
+                column: "ProfesorId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Inscripciones_CursoId",

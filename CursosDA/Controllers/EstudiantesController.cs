@@ -1,5 +1,4 @@
 ﻿using CursosDA.Data;
-using CursosDA.Migrations;
 using CursosDA.Models.Domain;
 using CursosDA.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -32,6 +31,15 @@ namespace CursosDA.Controllers
             cursosDBContext.Estudiantes.Add(estudiante);
             cursosDBContext.SaveChanges();
             return RedirectToAction("EstudianteAdd","Estudiantes" );
+        }
+
+
+        [HttpGet]
+     
+        public IActionResult getEstudiantes()
+        {
+            var getEstudiante = cursosDBContext.Estudiantes.ToList();
+            return View(getEstudiante);
         }
     }
 }

@@ -2,6 +2,7 @@
 using CursosDA.Models.Domain;
 using CursosDA.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CursosDA.Controllers
 {
@@ -9,7 +10,7 @@ namespace CursosDA.Controllers
     {
         private CursosDADbContext _cursosDADbContext;
 
-        public CursosController(CursosDADbContext cursosDADbContext) { 
+        public CursosController(CursosDADbContext cursosDADbContext) {
             _cursosDADbContext = cursosDADbContext;
         }
 
@@ -34,8 +35,21 @@ namespace CursosDA.Controllers
             };
 
             _cursosDADbContext.Cursos.Add(curso);
-            _cursosDADbContext.SaveChanges();   
+            _cursosDADbContext.SaveChanges();
             return RedirectToAction("CursoAdd", "Cursos");
         }
+
+
+        [HttpGet]
+        public IActionResult getCursos()
+        {
+            var cursos = _cursosDADbContext.Cursos.Include(c => c.Proferor).
+                ToList();
+            return View(cursos);
+        }
+     
+
+
+
     }
 }
