@@ -30,7 +30,7 @@ namespace CursosDA.Controllers
                 Descripcion = addCursoRequest.Descripcion,
                 InicioCurso = addCursoRequest.InicioCurso,
                 FinCurso = addCursoRequest.FinCurso,
-                
+                ProfesorId = addCursoRequest.ProfesorId
             };
 
             _cursosDADbContext.Cursos.Add(curso);

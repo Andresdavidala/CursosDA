@@ -1,0 +1,37 @@
+﻿@model CursosDA.Models.ViewModels.AddInscripcionesRequest
+@{
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card mt-5">
+                <div class="card-header bg-danger text-white">
+                    <h2 class="text-center">Registrar Nuevas Inscripciones</h2>
+                </div>
+                <div class="card-body">
+                    <div class="container py-5">
+                        <form method="post">
+                            <div class="mb-3">
+                                <label class="form-label">Id de Estudiante</label>
+                                <input type="text" class="form-control" id="name" asp-for="EstudianteId" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Id de Curso</label>
+                                <input type="number" class="form-control" id="displayName" asp-for="CursoId" />
+                            </div>
+
+
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-dark">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

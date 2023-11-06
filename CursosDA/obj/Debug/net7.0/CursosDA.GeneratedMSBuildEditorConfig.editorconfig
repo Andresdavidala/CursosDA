@@ -9,49 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CursosDA
 build_property.RootNamespace = CursosDA
-build_property.ProjectDir = D:\SASF\ASP MVC\CursosDA\CursosDA\
+build_property.ProjectDir = C:\Users\desarrollo\Desktop\Andres D\.NET\ASP MVC\CursosDA\CursosDA\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\SASF\ASP MVC\CursosDA\CursosDA
+build_property.MSBuildProjectDirectory = C:\Users\desarrollo\Desktop\Andres D\.NET\ASP MVC\CursosDA\CursosDA
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/SASF/ASP MVC/CursosDA/CursosDA/Views/Cursos/CursoAdd.cshtml]
+[C:/Users/desarrollo/Desktop/Andres D/.NET/ASP MVC/CursosDA/CursosDA/Views/Cursos/CursoAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEN1cnNvQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SASF/ASP MVC/CursosDA/CursosDA/Views/Estudiantes/EstudianteAdd.cshtml]
+[C:/Users/desarrollo/Desktop/Andres D/.NET/ASP MVC/CursosDA/CursosDA/Views/Estudiantes/EstudianteAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcRXN0dWRpYW50ZUFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SASF/ASP MVC/CursosDA/CursosDA/Views/Home/Index.cshtml]
+[C:/Users/desarrollo/Desktop/Andres D/.NET/ASP MVC/CursosDA/CursosDA/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SASF/ASP MVC/CursosDA/CursosDA/Views/Home/Privacy.cshtml]
+[C:/Users/desarrollo/Desktop/Andres D/.NET/ASP MVC/CursosDA/CursosDA/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SASF/ASP MVC/CursosDA/CursosDA/Views/Profesores/ProfesorAdd.cshtml]
+[C:/Users/desarrollo/Desktop/Andres D/.NET/ASP MVC/CursosDA/CursosDA/Views/Inscripciones/InscripcionesAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zY3JpcGNpb25lc1xJbnNjcmlwY2lvbmVzQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/desarrollo/Desktop/Andres D/.NET/ASP MVC/CursosDA/CursosDA/Views/Profesores/ProfesorAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzb3Jlc1xQcm9mZXNvckFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SASF/ASP MVC/CursosDA/CursosDA/Views/Shared/Error.cshtml]
+[C:/Users/desarrollo/Desktop/Andres D/.NET/ASP MVC/CursosDA/CursosDA/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SASF/ASP MVC/CursosDA/CursosDA/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/desarrollo/Desktop/Andres D/.NET/ASP MVC/CursosDA/CursosDA/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SASF/ASP MVC/CursosDA/CursosDA/Views/_ViewImports.cshtml]
+[C:/Users/desarrollo/Desktop/Andres D/.NET/ASP MVC/CursosDA/CursosDA/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SASF/ASP MVC/CursosDA/CursosDA/Views/_ViewStart.cshtml]
+[C:/Users/desarrollo/Desktop/Andres D/.NET/ASP MVC/CursosDA/CursosDA/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SASF/ASP MVC/CursosDA/CursosDA/Views/Shared/_Layout.cshtml]
+[C:/Users/desarrollo/Desktop/Andres D/.NET/ASP MVC/CursosDA/CursosDA/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8rxyv42lil

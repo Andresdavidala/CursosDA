@@ -8,6 +8,8 @@ namespace CursosDA.Models.ViewModels
         public string Descripcion { get; set; }
         public DateTime InicioCurso { get; set; }
         public DateTime FinCurso { get; set; }
+
+        public int ProfesorId { get; set; }
         public Profesor Proferor { get; set; }
     }
 }

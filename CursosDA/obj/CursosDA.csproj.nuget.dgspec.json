@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SASF\\ASP MVC\\CursosDA\\CursosDA\\CursosDA.csproj": {}
+    "C:\\Users\\desarrollo\\Desktop\\Andres D\\.NET\\ASP MVC\\CursosDA\\CursosDA\\CursosDA.csproj": {}
   },
   "projects": {
-    "D:\\SASF\\ASP MVC\\CursosDA\\CursosDA\\CursosDA.csproj": {
+    "C:\\Users\\desarrollo\\Desktop\\Andres D\\.NET\\ASP MVC\\CursosDA\\CursosDA\\CursosDA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SASF\\ASP MVC\\CursosDA\\CursosDA\\CursosDA.csproj",
+        "projectUniqueName": "C:\\Users\\desarrollo\\Desktop\\Andres D\\.NET\\ASP MVC\\CursosDA\\CursosDA\\CursosDA.csproj",
         "projectName": "CursosDA",
-        "projectPath": "D:\\SASF\\ASP MVC\\CursosDA\\CursosDA\\CursosDA.csproj",
-        "packagesPath": "C:\\Users\\josea\\.nuget\\packages\\",
-        "outputPath": "D:\\SASF\\ASP MVC\\CursosDA\\CursosDA\\obj\\",
+        "projectPath": "C:\\Users\\desarrollo\\Desktop\\Andres D\\.NET\\ASP MVC\\CursosDA\\CursosDA\\CursosDA.csproj",
+        "packagesPath": "C:\\Users\\desarrollo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\desarrollo\\Desktop\\Andres D\\.NET\\ASP MVC\\CursosDA\\CursosDA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\josea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\desarrollo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\desarrollo\\.nuget\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +55,12 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.13, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.1, )"
             }
           },
           "imports": [
@@ -74,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

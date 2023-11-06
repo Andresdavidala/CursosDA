@@ -13,6 +13,7 @@ namespace CursosDA.Models.Domain
         public DateTime InicioCurso { get; set; }   
         public DateTime FinCurso { get; set;}
 
+        public int ProfesorId { get; set; }
         public Profesor Proferor { get; set; }
     }
 }
