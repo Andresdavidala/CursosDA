@@ -30,7 +30,7 @@
 
                 <td>
                     <!-- Botón de Editar -->
-                    <a href="@Url.Action("Editar", "Cursos", new { id = curso.IdCurso })" class="btn btn-warning btn-sm">Editar</a>
+                    <a asp-area="" asp-controller="Cursos" asp-action="getCursosById" asp-route-id="@curso.IdCurso"  class="btn btn-warning btn-sm">Editar</a>
 
                     <!-- Botón de Eliminar (puedes mostrar un modal de confirmación si lo deseas) -->
                     <a href="@Url.Action("Eliminar", "Cursos", new { id = curso.IdCurso })" class="btn btn-danger btn-sm">Eliminar</a>
@@ -39,3 +39,4 @@
         }
     </tbody>
 </table>
+

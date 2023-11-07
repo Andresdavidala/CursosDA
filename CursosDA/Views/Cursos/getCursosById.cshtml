@@ -1,0 +1,35 @@
+﻿@model CursosDA.Models.Domain.Curso
+@{
+}
+
+
+<div class="container mt-5">
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Nombre" for="nombre">Nombre del Curso:</label>
+            <input asp-for="Nombre" type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre del curso">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Descripcion"  for="descripcion">Descripción:</label>
+            <textarea asp-for="Descripcion" class="form-control" id="descripcion" rows="3" placeholder="Ingrese la descripción del curso"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="InicioCurso" for="inicioCurso">Fecha de Inicio:</label>
+            <input asp-for="InicioCurso" type="date" class="form-control" id="inicioCurso">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="FinCurso" for="finCurso">Fecha de Fin:</label>
+            <input asp-for="FinCurso" type="date" class="form-control" id="finCurso">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ProfesorId" for="profesorId">ID del Profesor:</label>
+            <input asp-for="ProfesorId" type="number" class="form-control" id="profesorId" placeholder="Ingrese el ID del profesor">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Actualizar</button>
+    </form>
+</div>

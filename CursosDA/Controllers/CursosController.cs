@@ -47,7 +47,43 @@ namespace CursosDA.Controllers
                 ToList();
             return View(cursos);
         }
-     
+
+
+        [HttpGet]
+        public IActionResult getCursosById(int id)
+        {
+            var cursosById = _cursosDADbContext.Cursos.Find(id);
+
+            var cursoViewM = new Curso
+            {
+                Nombre = cursosById.Nombre,
+                Descripcion = cursosById.Descripcion,
+                InicioCurso = cursosById.InicioCurso,
+                FinCurso = cursosById.FinCurso,
+                ProfesorId = cursosById.ProfesorId
+            };
+            return View(cursoViewM);
+        }
+
+        [HttpPost]
+        public IActionResult getCursosById(Curso updatedCurso)
+        {
+            // Obtener el curso desde la base de datos por ID
+            var curso = _cursosDADbContext.Cursos.Find(updatedCurso.IdCurso);
+
+            // Actualizar las propiedades del curso con los valores del modelo de vista
+            curso.Nombre = updatedCurso.Nombre;
+            curso.Descripcion = updatedCurso.Descripcion;
+            curso.InicioCurso = updatedCurso.InicioCurso;
+            curso.FinCurso = updatedCurso.FinCurso;
+            curso.ProfesorId = updatedCurso.ProfesorId;
+
+            // Guardar los cambios en la base de datos
+            _cursosDADbContext.SaveChanges();
+
+            return RedirectToAction("getCursos", "Cursos"); // Redirigir a la página principal o a donde sea necesario
+        }
+
 
 
 
